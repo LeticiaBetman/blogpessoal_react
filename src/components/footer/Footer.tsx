@@ -1,5 +1,5 @@
 import {
-  FacebookLogoIcon,
+  GithubLogoIcon,
   InstagramLogoIcon,
   LinkedinLogoIcon,
 } from "@phosphor-icons/react";
@@ -14,11 +14,17 @@ function Footer() {
           <p className="text-xl font-bold">
             Blog Pessoal Letícia Betman | Copyright: {data}
           </p>
-          <p className="text-lg">Acesse minhas redes soociais</p>
+          <p className="text-lg">Acesse minhas redes sociais</p>
           <div className="flex gap-2">
-            <LinkedinLogoIcon size={48} weight="bold" />
-            <InstagramLogoIcon size={48} weight="bold" />
-            <FacebookLogoIcon size={48} weight="bold" />
+            <a href="https://linkedin.com/in/leticiabetman" target="_blank">
+              <LinkedinLogoIcon size={48} weight="bold" />
+            </a>
+            <a href="https://instagram.com/leticiabetman_" target="_blank">
+              <InstagramLogoIcon size={48} weight="bold" />
+            </a>
+            <a href="https://github.com/LeticiaBetman" target="_blank">
+              <GithubLogoIcon size={48} weight="bold" />
+            </a>
           </div>
         </div>
       </div>
